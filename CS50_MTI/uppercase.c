@@ -7,7 +7,7 @@ int main(void)
 {
     string s = get_string("Before: ");
     
-    for (int i = 0;i < strlen(s);i++)
+    for (int i = 0, n = strlen(s);i < n;i++)
     {
         if (islower(s[i]))
         {
