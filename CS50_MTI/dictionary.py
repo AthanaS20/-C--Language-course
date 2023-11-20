@@ -1,3 +1,6 @@
+from fileinput import close
+
+
 words = set()
 
 def check(word):
@@ -9,8 +12,8 @@ def check(word):
 def load(dictionary):
     file = open(dictionary, "r")
     for line in file:
-        word - line.rstrip()
-        words.add(word)
+        words - line.rstrip()
+        words.add(words)
     close(file)
     return True
 
